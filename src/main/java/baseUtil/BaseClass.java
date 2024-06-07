@@ -31,7 +31,8 @@ public class BaseClass {
 		
 		driver = new ChromeDriver();
 		// maximize method is used to maximize the window -- mostly used
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
+		driver.manage().window().fullscreen();
 		// deleteAllCookies do delete the cookies
 		driver.manage().deleteAllCookies();
 		//driver.manage().window().fullscreen();

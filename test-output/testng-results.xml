@@ -2,20 +2,20 @@
 <testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-06T19:41:57 EDT" name="Default suite" finished-at="2024-06-06T19:42:08 EDT" duration-ms="10575">
+  <suite started-at="2024-06-07T05:03:29 EDT" name="Default suite" finished-at="2024-06-07T05:03:34 EDT" duration-ms="4781">
     <groups>
     </groups>
-    <test started-at="2024-06-06T19:41:57 EDT" name="Default test" finished-at="2024-06-06T19:42:08 EDT" duration-ms="10575">
+    <test started-at="2024-06-07T05:03:29 EDT" name="Default test" finished-at="2024-06-07T05:03:34 EDT" duration-ms="4781">
       <class name="pages.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.HomePageTest@63376bed]" started-at="2024-06-06T19:41:57 EDT" name="setUp" finished-at="2024-06-06T19:42:02 EDT" duration-ms="4796" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.HomePageTest@63376bed]" started-at="2024-06-07T05:03:29 EDT" name="setUp" finished-at="2024-06-07T05:03:33 EDT" duration-ms="4091" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickgethelp()[pri:0, instance:pages.HomePageTest@63376bed]" started-at="2024-06-06T19:42:02 EDT" name="clickgethelp" finished-at="2024-06-06T19:42:08 EDT" duration-ms="5610" status="PASS">
+        <test-method signature="clickbill()[pri:0, instance:pages.HomePageTest@63376bed]" started-at="2024-06-07T05:03:33 EDT" name="clickbill" finished-at="2024-06-07T05:03:34 EDT" duration-ms="543" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickgethelp -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:pages.HomePageTest@63376bed]" started-at="2024-06-06T19:42:08 EDT" name="tearUp" finished-at="2024-06-06T19:42:08 EDT" duration-ms="117" status="PASS">
+        </test-method> <!-- clickbill -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:pages.HomePageTest@63376bed]" started-at="2024-06-07T05:03:34 EDT" name="tearUp" finished-at="2024-06-07T05:03:34 EDT" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
