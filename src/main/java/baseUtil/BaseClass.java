@@ -4,6 +4,9 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.GeckoDriverInfo;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -12,6 +15,9 @@ import pages.HomePage;
 
 public class BaseClass {
 	public WebDriver driver;
+	//public ChromeDriver driver;
+	//public EdgeDriver driver;
+	//public FirefoxDriver driver;
 	public HomePage homePage;
 	
 	@BeforeMethod
@@ -23,13 +29,20 @@ public class BaseClass {
 		// This is an absolute path
 		//System.setProperty("webdriver.chrome.driver", "/Users/zubaer/eclipse-workspace/org.nychhc.epicmychart/driver/chromedriver");
 		// We instantiated the driver here
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
 		
 		//System.setProperty("webdriver.chrome.driver" ,System.getProperty("user.dir")+"/driver/chromedriver");
 		//dynamic path or relative path
 		//System.setProperty("webdriver.chrome.driver" ,"./driver/chromedriver");
+		//System.setProperty("webdriver.edge.driver" ,"./driver/msedgedriver");
+		System.setProperty("webdriver.gecko.driver" ,"./driver/geckodriver");
 		
-		driver = new ChromeDriver();
+		//driver = new ChromeDriver();
+		//driver = new EdgeDriver();
+		driver = new FirefoxDriver();
+		
+		
+		
 		// maximize method is used to maximize the window -- mostly used
 		//driver.manage().window().maximize();
 		driver.manage().window().fullscreen();
