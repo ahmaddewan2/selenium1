@@ -1,27 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="23" total="24" passed="1" failed="0" skipped="0">
+<testng-results ignored="28" total="29" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on mac (5ab37595-0313-4def-b620-e93864ae24ff)] -> xpath: //*[@id="submit"]]<---------> has been clicked<br>]]>
+      <![CDATA[[[EdgeDriver: MicrosoftEdge on mac (78bf9b599aaf9a23b3913c5b1ee29399)] -> xpath: //input[@class='jsreq']]<---------> is Displayed, true<br>]]>
+    </line>
+    <line>
+      <![CDATA[February 2024 QA Bootcamp <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on mac (78bf9b599aaf9a23b3913c5b1ee29399)] -> xpath: //input[@class='jsreq']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 13<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 15<br>]]>
+    </line>
+    <line>
+      <![CDATA[ahmad dewan 2024 <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on mac (78bf9b599aaf9a23b3913c5b1ee29399)] -> xpath: //input[@class='jsreq']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 3<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[EdgeDriver: MicrosoftEdge on mac (78bf9b599aaf9a23b3913c5b1ee29399)] -> xpath: //*[@id="Password"]]<---------> is Displayed, true<br>]]>
+    </line>
+    <line>
+      <![CDATA[Abc@123a <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on mac (78bf9b599aaf9a23b3913c5b1ee29399)] -> xpath: //*[@id="Password"]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 3<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 15<br>]]>
+    </line>
+    <line>
+      <![CDATA[Abc@123abcd <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on mac (78bf9b599aaf9a23b3913c5b1ee29399)] -> xpath: //*[@id="Password"]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 3<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 3<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[EdgeDriver: MicrosoftEdge on mac (78bf9b599aaf9a23b3913c5b1ee29399)] -> xpath: //*[@id="submit"]]<---------> is Enabled, true<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[EdgeDriver: MicrosoftEdge on mac (78bf9b599aaf9a23b3913c5b1ee29399)] -> xpath: //*[@id="submit"]]<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 3<br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-06-09T22:49:51 EDT" name="Default suite" finished-at="2024-06-09T22:50:00 EDT" duration-ms="8814">
+  <suite started-at="2024-06-17T04:58:18 EDT" name="Default suite" finished-at="2024-06-17T04:59:54 EDT" duration-ms="96400">
     <groups>
     </groups>
-    <test started-at="2024-06-09T22:49:51 EDT" name="Default test" finished-at="2024-06-09T22:50:00 EDT" duration-ms="8814">
+    <test started-at="2024-06-17T04:58:18 EDT" name="Default test" finished-at="2024-06-17T04:59:54 EDT" duration-ms="96400">
       <class name="pages.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.HomePageTest@2a265ea9]" started-at="2024-06-09T22:49:51 EDT" name="setUp" finished-at="2024-06-09T22:49:59 EDT" duration-ms="7649" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.HomePageTest@449a4f23]" started-at="2024-06-17T04:58:18 EDT" name="setUp" finished-at="2024-06-17T04:58:44 EDT" duration-ms="25784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="inputTextInusernameAndpasswordFieldThenClicksignIn()[pri:0, instance:pages.HomePageTest@2a265ea9]" started-at="2024-06-09T22:49:59 EDT" name="inputTextInusernameAndpasswordFieldThenClicksignIn" finished-at="2024-06-09T22:49:59 EDT" duration-ms="297" status="PASS">
+        <test-method signature="use_of_clear_in_login()[pri:0, instance:pages.HomePageTest@449a4f23]" started-at="2024-06-17T04:58:44 EDT" name="use_of_clear_in_login" finished-at="2024-06-17T04:59:52 EDT" duration-ms="68063" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on mac (5ab37595-0313-4def-b620-e93864ae24ff)] -> xpath: //*[@id="submit"]]<---------> has been clicked<br>]]>
+              <![CDATA[[[EdgeDriver: MicrosoftEdge on mac (78bf9b599aaf9a23b3913c5b1ee29399)] -> xpath: //input[@class='jsreq']]<---------> is Displayed, true<br>]]>
+            </line>
+            <line>
+              <![CDATA[February 2024 QA Bootcamp <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on mac (78bf9b599aaf9a23b3913c5b1ee29399)] -> xpath: //input[@class='jsreq']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 13<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 15<br>]]>
+            </line>
+            <line>
+              <![CDATA[ahmad dewan 2024 <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on mac (78bf9b599aaf9a23b3913c5b1ee29399)] -> xpath: //input[@class='jsreq']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 3<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[EdgeDriver: MicrosoftEdge on mac (78bf9b599aaf9a23b3913c5b1ee29399)] -> xpath: //*[@id="Password"]]<---------> is Displayed, true<br>]]>
+            </line>
+            <line>
+              <![CDATA[Abc@123a <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on mac (78bf9b599aaf9a23b3913c5b1ee29399)] -> xpath: //*[@id="Password"]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 3<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 15<br>]]>
+            </line>
+            <line>
+              <![CDATA[Abc@123abcd <-----> has been put into <-----> [[EdgeDriver: MicrosoftEdge on mac (78bf9b599aaf9a23b3913c5b1ee29399)] -> xpath: //*[@id="Password"]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 3<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 3<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[EdgeDriver: MicrosoftEdge on mac (78bf9b599aaf9a23b3913c5b1ee29399)] -> xpath: //*[@id="submit"]]<---------> is Enabled, true<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[EdgeDriver: MicrosoftEdge on mac (78bf9b599aaf9a23b3913c5b1ee29399)] -> xpath: //*[@id="submit"]]<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 3<br>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- inputTextInusernameAndpasswordFieldThenClicksignIn -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:pages.HomePageTest@2a265ea9]" started-at="2024-06-09T22:49:59 EDT" name="tearUp" finished-at="2024-06-09T22:50:00 EDT" duration-ms="824" status="PASS">
+        </test-method> <!-- use_of_clear_in_login -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:pages.HomePageTest@449a4f23]" started-at="2024-06-17T04:59:52 EDT" name="tearUp" finished-at="2024-06-17T04:59:54 EDT" duration-ms="2106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
